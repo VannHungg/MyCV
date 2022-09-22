@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: roboto,Arial,sans-serif;
+    scroll-behavior: smooth;
+    /* line-height: 1.8rem; */
+}
+
+.clear {
+    clear: both;
+}
+
+.big-wrapper {
+    background-color: rgb(211, 211, 211);
+    padding: 48px;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.wrapper-left {
+    float: left;
+    width: 50%;
+    background-color: white;
+    padding: 36px;
+}
+
+.wrapper-left__image {
+    width: 200px;
+    height: 200px;
+    background: url(../img/personal2.jpg)-62px -5px no-repeat;
+    border-radius: 50%;
+    margin-bottom: 48px;
+}
+
+.wrapper-left__name h1{
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.wrapper-left__name h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.wrapper-left__name p{
+    font-size: 1.5rem;
+    font-weight: 150;
+    color: #666;
+}
+
+.wrapper-left__common h2 {
+    font-size: 2rem;
+    color: #00b4d8;
+    margin-top: 32px;
+}
+
+.wrapper-left__common-title span {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    display: block;
+}
+
+.wrapper-left__common-title p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.wrapper-left__common-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper-left__common-title a:hover {
+    color: #00b4d8;
+}
+
+.title {
+    font-weight: 550;;
+}
+
+.wrapper-left__temp {
+    width: 100%;
+    height: 44px;
+    background-color: white;
+}
+
+.wrapper-right {
+    float: left;
+    width: 50%;
+    background-color: #f2fbfd;
+    padding: 36px;
+}
+
+.wrapper-right__info h3 {
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+}
+
+.wrapper-right__info p {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.wrapper-right__education h3{
+    margin-top: 52px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.wrapper-right__school h2 {
+    font-size: 2rem;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+.wrapper-right__school span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 8px;
+    display: block;
+}
+
+.wrapper-right__school p { 
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.wrapper-right__skill-awards h2 {
+    font-size: 1.6rem;
+    font-weight: 550;
+    margin-top: 40px;
+}
+
+.skill-awards__title {
+    font-size: 1.6rem;
+    font-weight: 550;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
